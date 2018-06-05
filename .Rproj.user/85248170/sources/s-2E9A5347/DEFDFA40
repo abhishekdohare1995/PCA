@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1528229154850.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "DEFDFA40",
+    "lastKnownWriteTime" : 1528228729,
+    "last_content_update" : 1528228729,
+    "path" : "~/PCAplot/R/PCA_Analysis.R",
+    "project_path" : "R/PCA_Analysis.R",
+    "properties" : {
+        "cursorPosition" : "9,34",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
