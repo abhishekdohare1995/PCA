@@ -1,7 +1,11 @@
 # PCA_Plot<-function(gene_data_file_path, meta_data_file_path){
 PCA_Plot<-function(gene_data_file, meta_data_file){
 
-  if(!grepl(".csv$", file)){
+  if(!grepl(".csv$", gene_data_file)){
+    stop("Uploaded file must be a .csv file!")
+  }
+
+  if(!grepl(".csv$", meta_data_file)){
     stop("Uploaded file must be a .csv file!")
   }
   
