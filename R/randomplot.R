@@ -1,27 +1,6 @@
-#' Make a random plot
-#' 
-#' This function creates a random histogram plot.
-#' 
-#' @export
-#' @param n numer of random values 
-#' @param dist one of "normal" or "uniform".
-randomplot <- function(n, dist=c("normal", "uniform")){
-  # #input validation
-  # dist <- match.arg(dist)
-  # stopifnot(n < 1e6)
-  
-  # if(dist == "normal"){
-  #   hist(rnorm(n))
-  # }
-  
-  # if(dist == "uniform"){
-  #   hist(runif(n))
-  # }
-  
-  # #return nothing
-  # invisible();  
+randomplot <- function(gene_data_file, meta_data_file)){
 
-    if(!grepl(".csv$", gene_data_file)){
+  if(!grepl(".csv$", gene_data_file)){
     stop("Uploaded file must be a .csv file!")
   }
 
@@ -46,6 +25,4 @@ randomplot <- function(n, dist=c("normal", "uniform")){
   PCAplot<-ggplot(PCi,aes(x=PC1,y=PC2,col=time_point))+
   geom_point(size=3,alpha=0.5)
   return(PCAplot)
-  
-  
 }
