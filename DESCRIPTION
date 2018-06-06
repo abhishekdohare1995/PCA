@@ -1,11 +1,11 @@
-Package: PCAplot
+Package: appdemo
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
-Encoding: UTF-8
+Title: OpenCPU Demo Application
+Version: 1.0
+Date: 2017-05-13
+Author: Jeroen Ooms
+Maintainer: Jeroen Ooms <jeroen@berkeley.edu>
+Description: This package is an example of an OpenCPU App. It demonstrates
+    basic functionality of the API and Javascript library.
+License: Apache2
 LazyData: true
