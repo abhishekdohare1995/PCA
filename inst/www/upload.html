@@ -25,7 +25,7 @@
         $("#submitbutton").attr("disabled", "disabled");
 
         //perform the request
-        var req = ocpu.call("readcsvnew", {
+        var req = ocpu.call("PCA_Analysis", {
           file : myfile,
           header : myheader
         }, function(session){
