@@ -59,13 +59,16 @@
   <body>
     <h1>Uploading a File</h1>
     
-    <b>File</b> <input type="file" id="csvfile"> 
+    <b>Gene Data File</b> <input type="file" id="gene-data"> 
+    <br />
+
+    <b>Meta Data File</b> <input type="file" id="meta-data">
     <br />
     
-    <b>Header</b> <select id="header">
+    <!-- <b>Header</b> <select id="header">
       <option>true</option>
       <option>false</option>
-    </select> 
+    </select>  -->
     
     <br />
     <button id="submitbutton" type="button">Upload CSV file!</button>
@@ -82,15 +85,15 @@
       <li><a target="_blank" id="mdlink">markdown</a></li>
     </ol>
 
-    <p>
+    <!-- <p>
      This page demonstrates how to upload a file. It works exactly the same as calling a function. We call <code>read.csav</code> so that it will be stored on the server as a data frame.
-    </p>
+    </p> -->
     
-    <p>
+    <!-- <p>
       <b>Note that HTML5 is required to upload files!</b> <br />
       This means that this won't work in internet explorer version 9 or lower.
       You need Firefox, Chrome, Safari or Internet Explorer 10+
-    </p>
+    </p> -->
     
   </body>
 </html>
